@@ -1,0 +1,8 @@
+Project Name,Package Name,Type Name,LCOM1,LCOM2,LCOM3,LCOM4,LCOM5,YALCOM
+core,com.spaceproject.ui.menu.tabs,MainMenuTab,28.0,28.0,8.0,8.0,1.0,1.0
+core,com.spaceproject.ui.debug.nodes,ReflectionNode,27.0,26.0,7.0,5.0,0.8571428571428571,0.625
+core,com.spaceproject.math,PolygonUtil,55.0,0.0,11.0,11.0,0.98,0.9090909090909092
+core,com.spaceproject.math,MyMath,378.0,0.0,28.0,21.0,0.9753086419753086,0.6785714285714286
+core,com.spaceproject.screens.debug,TestShipGenerationScreen,27.0,26.0,7.0,6.0,0.9761904761904762,0.75
+core,com.spaceproject.generation,TextureGenerator,190.0,0.0,20.0,18.0,1.0,0.9
+core,com.spaceproject.generation,BodyBuilder,45.0,0.0,10.0,10.0,1.0,1.0

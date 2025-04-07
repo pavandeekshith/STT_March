@@ -1,0 +1,809 @@
+{
+    "__main__": {
+        "bacon": 0,
+        "imports": [
+            "praxis",
+            "praxis.activations",
+            "praxis.activations.jagged_sine",
+            "praxis.activations.nmda",
+            "praxis.activations.periodic_relu",
+            "praxis.activations.plot_activations",
+            "praxis.activations.serf",
+            "praxis.activations.sin",
+            "praxis.activations.sin_cos",
+            "praxis.activations.sinlu",
+            "praxis.activations.snake",
+            "praxis.blocks",
+            "praxis.blocks.conv",
+            "praxis.blocks.min",
+            "praxis.blocks.mru",
+            "praxis.blocks.nano",
+            "praxis.blocks.recurrent",
+            "praxis.blocks.transformer",
+            "praxis.configuration_praxis",
+            "praxis.functional",
+            "praxis.functional.alpha_entmax",
+            "praxis.functional.alpha_relu",
+            "praxis.functional.ghostmax",
+            "praxis.losses",
+            "praxis.losses.cross_entropy",
+            "praxis.losses.focal",
+            "praxis.losses.mile",
+            "praxis.losses.stablemax",
+            "praxis.modeling_praxis",
+            "praxis.modules",
+            "praxis.modules.attention",
+            "praxis.modules.behaviors",
+            "praxis.modules.controller",
+            "praxis.modules.decoder",
+            "praxis.modules.dense",
+            "praxis.modules.embeddings",
+            "praxis.modules.encoder",
+            "praxis.modules.encoding",
+            "praxis.modules.evolution",
+            "praxis.modules.experts",
+            "praxis.modules.graph",
+            "praxis.modules.kan",
+            "praxis.modules.memory",
+            "praxis.modules.peer",
+            "praxis.modules.recurrent",
+            "praxis.modules.residual",
+            "praxis.modules.router",
+            "praxis.modules.smear",
+            "praxis.modules.visualization",
+            "praxis.stacks",
+            "praxis.stacks.base",
+            "praxis.tokenizer_praxis",
+            "praxis.utils"
+        ],
+        "name": "__main__",
+        "path": null
+    },
+    "networkx": {
+        "bacon": 2,
+        "imported_by": [
+            "networkx",
+            "praxis.modules.graph",
+            "praxis.modules.visualization"
+        ],
+        "imports": [
+            "networkx"
+        ],
+        "name": "networkx",
+        "path": "/Users/pavandeekshith/miniconda3/envs/my_env/lib/python3.10/site-packages/networkx/__init__.py"
+    },
+    "praxis": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis",
+            "praxis.activations",
+            "praxis.activations.plot_activations",
+            "praxis.blocks",
+            "praxis.blocks.conv",
+            "praxis.blocks.min",
+            "praxis.blocks.mru",
+            "praxis.blocks.nano",
+            "praxis.blocks.recurrent",
+            "praxis.blocks.transformer",
+            "praxis.functional",
+            "praxis.losses",
+            "praxis.modeling_praxis",
+            "praxis.modules",
+            "praxis.modules.attention",
+            "praxis.modules.behaviors",
+            "praxis.modules.decoder",
+            "praxis.modules.dense",
+            "praxis.modules.encoder",
+            "praxis.modules.experts",
+            "praxis.modules.graph",
+            "praxis.modules.kan",
+            "praxis.modules.peer",
+            "praxis.modules.router",
+            "praxis.modules.visualization",
+            "praxis.stacks",
+            "praxis.stacks.base"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.activations",
+            "praxis.blocks",
+            "praxis.configuration_praxis",
+            "praxis.losses",
+            "praxis.modeling_praxis",
+            "praxis.modules",
+            "praxis.modules.attention"
+        ],
+        "name": "praxis",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/__init__.py"
+    },
+    "praxis.activations": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis",
+            "praxis.activations",
+            "praxis.activations.plot_activations",
+            "praxis.blocks.conv",
+            "praxis.modules.behaviors",
+            "praxis.modules.dense",
+            "praxis.modules.kan",
+            "praxis.modules.peer",
+            "praxis.stacks.base"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.activations",
+            "praxis.activations.jagged_sine",
+            "praxis.activations.nmda",
+            "praxis.activations.periodic_relu",
+            "praxis.activations.serf",
+            "praxis.activations.sin",
+            "praxis.activations.sin_cos",
+            "praxis.activations.sinlu",
+            "praxis.activations.snake"
+        ],
+        "name": "praxis.activations",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/activations/__init__.py"
+    },
+    "praxis.activations.jagged_sine": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.activations"
+        ],
+        "name": "praxis.activations.jagged_sine",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/activations/jagged_sine.py"
+    },
+    "praxis.activations.nmda": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.activations"
+        ],
+        "name": "praxis.activations.nmda",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/activations/nmda.py"
+    },
+    "praxis.activations.periodic_relu": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.activations"
+        ],
+        "name": "praxis.activations.periodic_relu",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/activations/periodic_relu.py"
+    },
+    "praxis.activations.plot_activations": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.activations"
+        ],
+        "name": "praxis.activations.plot_activations",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/activations/plot_activations.py"
+    },
+    "praxis.activations.serf": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.activations"
+        ],
+        "name": "praxis.activations.serf",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/activations/serf.py"
+    },
+    "praxis.activations.sin": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.activations"
+        ],
+        "name": "praxis.activations.sin",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/activations/sin.py"
+    },
+    "praxis.activations.sin_cos": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.activations"
+        ],
+        "name": "praxis.activations.sin_cos",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/activations/sin_cos.py"
+    },
+    "praxis.activations.sinlu": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.activations"
+        ],
+        "name": "praxis.activations.sinlu",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/activations/sinlu.py"
+    },
+    "praxis.activations.snake": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.activations"
+        ],
+        "name": "praxis.activations.snake",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/activations/snake.py"
+    },
+    "praxis.blocks": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis",
+            "praxis.blocks",
+            "praxis.stacks.base"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.blocks",
+            "praxis.blocks.conv",
+            "praxis.blocks.min",
+            "praxis.blocks.mru",
+            "praxis.blocks.nano",
+            "praxis.blocks.recurrent",
+            "praxis.blocks.transformer"
+        ],
+        "name": "praxis.blocks",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/blocks/__init__.py"
+    },
+    "praxis.blocks.conv": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.blocks"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.activations",
+            "praxis.modules",
+            "praxis.modules.dense"
+        ],
+        "name": "praxis.blocks.conv",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/blocks/conv.py"
+    },
+    "praxis.blocks.min": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.blocks"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.modules",
+            "praxis.modules.dense",
+            "praxis.modules.recurrent"
+        ],
+        "name": "praxis.blocks.min",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/blocks/min.py"
+    },
+    "praxis.blocks.mru": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.blocks"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.modules",
+            "praxis.modules.dense"
+        ],
+        "name": "praxis.blocks.mru",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/blocks/mru.py"
+    },
+    "praxis.blocks.nano": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.blocks"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.modules",
+            "praxis.modules.dense"
+        ],
+        "name": "praxis.blocks.nano",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/blocks/nano.py"
+    },
+    "praxis.blocks.recurrent": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.blocks"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.modules",
+            "praxis.modules.recurrent",
+            "praxis.modules.smear"
+        ],
+        "name": "praxis.blocks.recurrent",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/blocks/recurrent.py"
+    },
+    "praxis.blocks.transformer": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.blocks"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.modules",
+            "praxis.modules.attention",
+            "praxis.modules.experts",
+            "praxis.modules.residual",
+            "praxis.utils"
+        ],
+        "name": "praxis.blocks.transformer",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/blocks/transformer.py"
+    },
+    "praxis.configuration_praxis": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis"
+        ],
+        "name": "praxis.configuration_praxis",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/configuration_praxis.py"
+    },
+    "praxis.functional": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.functional",
+            "praxis.modules.attention"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.functional",
+            "praxis.functional.alpha_entmax",
+            "praxis.functional.alpha_relu",
+            "praxis.functional.ghostmax"
+        ],
+        "name": "praxis.functional",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/functional/__init__.py"
+    },
+    "praxis.functional.alpha_entmax": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.functional",
+            "praxis.modules.attention"
+        ],
+        "name": "praxis.functional.alpha_entmax",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/functional/alpha_entmax.py"
+    },
+    "praxis.functional.alpha_relu": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.functional",
+            "praxis.modules.attention"
+        ],
+        "name": "praxis.functional.alpha_relu",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/functional/alpha_relu.py"
+    },
+    "praxis.functional.ghostmax": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.functional",
+            "praxis.modules.attention"
+        ],
+        "name": "praxis.functional.ghostmax",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/functional/ghostmax.py"
+    },
+    "praxis.losses": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis",
+            "praxis.losses",
+            "praxis.modeling_praxis"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.losses",
+            "praxis.losses.cross_entropy",
+            "praxis.losses.focal",
+            "praxis.losses.mile",
+            "praxis.losses.stablemax"
+        ],
+        "name": "praxis.losses",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/losses/__init__.py"
+    },
+    "praxis.losses.cross_entropy": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.losses"
+        ],
+        "name": "praxis.losses.cross_entropy",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/losses/cross_entropy.py"
+    },
+    "praxis.losses.focal": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.losses"
+        ],
+        "name": "praxis.losses.focal",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/losses/focal.py"
+    },
+    "praxis.losses.mile": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.losses"
+        ],
+        "name": "praxis.losses.mile",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/losses/mile.py"
+    },
+    "praxis.losses.stablemax": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.losses"
+        ],
+        "name": "praxis.losses.stablemax",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/losses/stablemax.py"
+    },
+    "praxis.modeling_praxis": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.losses",
+            "praxis.modules",
+            "praxis.modules.decoder",
+            "praxis.modules.encoder",
+            "praxis.utils"
+        ],
+        "name": "praxis.modeling_praxis",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modeling_praxis.py"
+    },
+    "praxis.modules": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis",
+            "praxis.blocks.conv",
+            "praxis.blocks.min",
+            "praxis.blocks.mru",
+            "praxis.blocks.nano",
+            "praxis.blocks.recurrent",
+            "praxis.blocks.transformer",
+            "praxis.modeling_praxis",
+            "praxis.modules",
+            "praxis.modules.attention",
+            "praxis.modules.behaviors",
+            "praxis.modules.encoder",
+            "praxis.modules.experts",
+            "praxis.modules.graph",
+            "praxis.modules.visualization",
+            "praxis.stacks.base"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.modules",
+            "praxis.modules.embeddings",
+            "praxis.modules.encoding",
+            "praxis.modules.experts"
+        ],
+        "name": "praxis.modules",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/__init__.py"
+    },
+    "praxis.modules.attention": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis",
+            "praxis.blocks.transformer"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.functional",
+            "praxis.functional.alpha_entmax",
+            "praxis.functional.alpha_relu",
+            "praxis.functional.ghostmax",
+            "praxis.modules",
+            "praxis.modules.dense",
+            "praxis.modules.encoding",
+            "praxis.modules.memory"
+        ],
+        "name": "praxis.modules.attention",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/attention.py"
+    },
+    "praxis.modules.behaviors": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.stacks.base"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.activations",
+            "praxis.modules",
+            "praxis.modules.controller",
+            "praxis.modules.graph",
+            "praxis.modules.visualization"
+        ],
+        "name": "praxis.modules.behaviors",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/behaviors.py"
+    },
+    "praxis.modules.controller": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.modules.behaviors"
+        ],
+        "name": "praxis.modules.controller",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/controller.py"
+    },
+    "praxis.modules.decoder": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.modeling_praxis"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.stacks"
+        ],
+        "name": "praxis.modules.decoder",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/decoder.py"
+    },
+    "praxis.modules.dense": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.blocks.conv",
+            "praxis.blocks.min",
+            "praxis.blocks.mru",
+            "praxis.blocks.nano",
+            "praxis.modules.attention",
+            "praxis.modules.experts",
+            "praxis.modules.graph",
+            "praxis.modules.visualization"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.activations"
+        ],
+        "name": "praxis.modules.dense",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/dense.py"
+    },
+    "praxis.modules.embeddings": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.modules"
+        ],
+        "name": "praxis.modules.embeddings",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/embeddings.py"
+    },
+    "praxis.modules.encoder": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.modeling_praxis"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.modules",
+            "praxis.modules.recurrent"
+        ],
+        "name": "praxis.modules.encoder",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/encoder.py"
+    },
+    "praxis.modules.encoding": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.modules",
+            "praxis.modules.attention"
+        ],
+        "name": "praxis.modules.encoding",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/encoding.py"
+    },
+    "praxis.modules.evolution": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.stacks.base"
+        ],
+        "name": "praxis.modules.evolution",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/evolution.py"
+    },
+    "praxis.modules.experts": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.blocks.transformer",
+            "praxis.modules",
+            "praxis.stacks.base"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.modules",
+            "praxis.modules.dense",
+            "praxis.modules.kan",
+            "praxis.modules.peer",
+            "praxis.modules.recurrent",
+            "praxis.modules.router"
+        ],
+        "name": "praxis.modules.experts",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/experts.py"
+    },
+    "praxis.modules.graph": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.modules.behaviors"
+        ],
+        "imports": [
+            "networkx",
+            "praxis",
+            "praxis.modules",
+            "praxis.modules.dense",
+            "praxis.modules.visualization"
+        ],
+        "name": "praxis.modules.graph",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/graph.py"
+    },
+    "praxis.modules.kan": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.modules.experts"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.activations"
+        ],
+        "name": "praxis.modules.kan",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/kan.py"
+    },
+    "praxis.modules.memory": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.modules.attention"
+        ],
+        "name": "praxis.modules.memory",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/memory.py"
+    },
+    "praxis.modules.peer": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.modules.experts"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.activations"
+        ],
+        "name": "praxis.modules.peer",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/peer.py"
+    },
+    "praxis.modules.recurrent": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.blocks.min",
+            "praxis.blocks.recurrent",
+            "praxis.modules.encoder",
+            "praxis.modules.experts"
+        ],
+        "name": "praxis.modules.recurrent",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/recurrent.py"
+    },
+    "praxis.modules.residual": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.blocks.transformer"
+        ],
+        "name": "praxis.modules.residual",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/residual.py"
+    },
+    "praxis.modules.router": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.modules.experts",
+            "praxis.stacks.base"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.utils"
+        ],
+        "name": "praxis.modules.router",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/router.py"
+    },
+    "praxis.modules.smear": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.blocks.recurrent"
+        ],
+        "name": "praxis.modules.smear",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/smear.py"
+    },
+    "praxis.modules.visualization": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.modules.behaviors",
+            "praxis.modules.graph"
+        ],
+        "imports": [
+            "networkx",
+            "praxis",
+            "praxis.modules",
+            "praxis.modules.dense"
+        ],
+        "name": "praxis.modules.visualization",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/modules/visualization.py"
+    },
+    "praxis.stacks": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.modules.decoder",
+            "praxis.stacks"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.stacks",
+            "praxis.stacks.base"
+        ],
+        "name": "praxis.stacks",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/stacks/__init__.py"
+    },
+    "praxis.stacks.base": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.stacks"
+        ],
+        "imports": [
+            "praxis",
+            "praxis.activations",
+            "praxis.blocks",
+            "praxis.modules",
+            "praxis.modules.behaviors",
+            "praxis.modules.evolution",
+            "praxis.modules.experts",
+            "praxis.modules.router"
+        ],
+        "name": "praxis.stacks.base",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/stacks/base.py"
+    },
+    "praxis.tokenizer_praxis": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "praxis.tokenizer_praxis",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/tokenizer_praxis.py"
+    },
+    "praxis.utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "praxis.blocks.transformer",
+            "praxis.modeling_praxis",
+            "praxis.modules.router"
+        ],
+        "name": "praxis.utils",
+        "path": "/Users/pavandeekshith/B-Tech/Btech_3rd_Year/6th_Sem/STT/lab9/praxis/praxis/utils.py"
+    }
+}
